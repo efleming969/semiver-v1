@@ -4,7 +4,8 @@
   "description": "sample repo",
   "main": "./lib/index.js",
   "scripts": {
-    "compile": "tsc"
+    "compile": "tsc",
+    "release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -12,7 +13,13 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "@semantic-release/commit-analyzer": "^11.1.0",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.2.6",
+    "@semantic-release/npm": "^11.0.3",
+    "@semantic-release/release-notes-generator": "^12.1.0",
+    "semantic-release": "^23.0.2"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

@@ -25,7 +25,7 @@ jobs:
 
       - run: npm clean-install
       - run: npm run compile
-      - run: npm publish
+      - run: npm run release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}

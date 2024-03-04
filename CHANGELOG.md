@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/efleming969/semiver-v1/compare/v1.1.0...v1.1.1) (2024-03-04)
+
+
+### Bug Fixes
+
+* lock file ([05546aa](https://github.com/efleming969/semiver-v1/commit/05546aa3b3d100bc529f3f48410ffc74b61e5896))
+
 # [1.1.0](https://github.com/efleming969/semiver-v1/compare/v1.0.0...v1.1.0) (2024-03-04)
 
 

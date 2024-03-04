@@ -3,7 +3,7 @@
  */
 module.exports = {
     branches: ['+([0-9])?(.{+([0-9]),x}).x', 'trunk', { name: 'rc', prerelease: true }],
-    repositoryUrl: "https://github.com/efleming969/semiver-v2",
+    repositoryUrl: "https://github.com/efleming969/semiver-v1",
     plugins: [
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",

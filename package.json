@@ -1,0 +1,20 @@
+{
+  "name": "@efleming969/semiver-v1",
+  "version": "0.1.0",
+  "description": "sample repo",
+  "main": "./lib/index.js",
+  "scripts": {
+    "compile": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efleming969/semiver-v1.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}

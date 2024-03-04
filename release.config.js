@@ -2,8 +2,8 @@
  * @type {import("semantic-release").GlobalConfig}
  */
 module.exports = {
-    branches: [ "trunk" ],
-    repositoryUrl: "https://github.com/efleming969/semrel-example",
+    branches: ['+([0-9])?(.{+([0-9]),x}).x', 'trunk', { name: 'rc', prerelease: true }],
+    repositoryUrl: "https://github.com/efleming969/semiver-v2",
     plugins: [
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",

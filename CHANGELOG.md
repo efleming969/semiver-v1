@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/efleming969/semiver-v1/compare/v1.0.0...v1.1.0) (2024-03-04)
+
+
+### Features
+
+* remove complicated build ([63f455a](https://github.com/efleming969/semiver-v1/commit/63f455a2bf708b58549dbdd3cf9c562d137aac9a))
+
 # 1.0.0 (2024-03-04)
 
 
